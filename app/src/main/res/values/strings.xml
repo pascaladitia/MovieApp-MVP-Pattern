@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Movie Application</string>
+    <string name="title_activity_lokasi_saya">Map</string>
+    <string name="aktor">Tom Cruise (lahir dengan nama Thomas Cruise Mapother IV 3 Juli 1962; umur 58 tahun) adalah seorang aktor dan produser film asal Amerika Serikat yang dinominasikan dalam Academy Award, dan memenangkan tiga kali penghargaan Golden Globe Award. Ia juga salah satu aktor tersukses di Hollywood dan memulai karier aktingnya sejak era 1980-an.</string>
+    <string name="studio">Marvel Studios, LLC[1] (awalnya dikenal sebagai Marvel Film dari 1993 sampai 1996) adalah studio film Amerika yang berbasis di The Walt Disney Studios di Burbank, California dan merupakan anak perusahaan dari Walt Disney Studios, itu sendiri sebuah divisi yang dimiliki sepenuhnya dari The Walt Disney Company, dengan produser film Kevin Feige menjabat sebagai presiden.[3] Sebelumnya, studio adalah anak perusahaan dari Marvel Entertainment sampai The Walt Disney Company mereorganisasi perusahaan di Agustus 2015. Didedikasikan untuk memproduksi film berdasarkan karakter Marvel Comics, studio telah terlibat dalam tiga waralaba film karakter Marvel telah melampaui satu miliar dolar dalam pendapatan di Amerika Utara: X-Men, Spider-Man, dan Marvel Cinematic Universe waralaba multi-film. X-Men dan Spider-Man dan waralaba Marvel lainnya berlisensi 20th Century Fox dan Sony Pictures. Film Marvel Studiossaat ini didistribusikan teatrikal oleh Walt Disney Studios Motion Pictures; Paramount Pictures untuk The Incredible Hulk, dan Columbia Pictures untuk Spider-Man: Homecoming dijadwalkan untuk rilis pada tanggal 7 Juli 2017.[4]</string>
+    <string name="my_profil">My Profil</string>
+    <string name="movie">Movie</string>
+    <string name="my_location">My Location</string>
+    <string name="aktor2">Aktor</string>
+    <string name="jadwal">Jadwal</string>
+    <string name="studio2">Studio</string>
+    <string name="nama">Pascal Aditia Muclis</string>
+    <string name="ttl">TTL : Sukabumi, 22 Januari 2000</string>
+    <string name="email">Email\t: pascaladitia@gmail.com</string>
+    <string name="developer">Android Kotlin Developer</string>
+    <string name="login_disini">Login</string>
+    <string name="register_disini">Register Disini...</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="insert">Insert</string>
+    <string name="tanggal">Tanggal: YY//MM//DD</string>
+    <string name="jenis_movie">Jenis Movie</string>
+    <string name="nama_movie">Nama Movie</string>
+</resources>

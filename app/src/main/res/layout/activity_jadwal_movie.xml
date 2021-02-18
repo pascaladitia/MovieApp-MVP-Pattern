@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.content.crudJadwal.JadwalMovieActivity">
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recycler_jadwal"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+       tools:listitem="@layout/item_jadwal" />
+
+   <ProgressBar
+       android:id="@+id/progress_jadwal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:indeterminate="true" />
+
+   <com.google.android.material.floatingactionbutton.FloatingActionButton
+       android:id="@+id/btn_jadwalAdd"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginRight="40dp"
+       android:layout_marginBottom="40dp"
+       app:layout_anchor="@id/recycler_jadwal"
+       app:layout_anchorGravity="bottom|right|end"
+       android:src="@drawable/ic_add" />
+
+</RelativeLayout>
