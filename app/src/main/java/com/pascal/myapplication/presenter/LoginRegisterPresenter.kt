@@ -8,9 +8,10 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 class LoginRegisterPresenter(val loginRegisterView: LoginRegisterInterface) {
 
     fun registerData(nama: String, hp: String, email: String, password: String) {
-            loginRegisterView.isLoading(true)
+        loginRegisterView.isLoading(true)
         if (nama.isNotEmpty() && hp.isNotEmpty() &&
-            email.isNotEmpty() && password.isNotEmpty()) {
+            email.isNotEmpty() && password.isNotEmpty()
+        ) {
 
             loginRegisterView.isLoading(false)
 
@@ -21,11 +22,7 @@ class LoginRegisterPresenter(val loginRegisterView: LoginRegisterInterface) {
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe({
                         loginRegisterView.isLoading(false)
-                        if (it.isSuccess!!.equals("true")) {
-                            loginRegisterView.successRegister(it)
-                        } else {
-                            loginRegisterView.isError(it.message.toString())
-                        }
+                        loginRegisterView.successRegister(it)
                     }, {
                         loginRegisterView.isLoading(false)
                         loginRegisterView.isError(it.localizedMessage)
